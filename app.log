@@ -1,0 +1,196 @@
+2025-05-17 12:52:52,649 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-05-17 12:52:52,649 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 12:52:52,650 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 12:52:53,812 - werkzeug - WARNING -  * Debugger is active!
+2025-05-17 12:52:53,816 - werkzeug - INFO -  * Debugger PIN: 218-296-101
+2025-05-17 12:53:03,448 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "GET / HTTP/1.1" 200 -
+2025-05-17 12:53:03,452 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "GET / HTTP/1.1" 200 -
+2025-05-17 12:53:03,607 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-17 12:53:03,609 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-17 12:53:03,617 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 12:53:03,617 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-17 12:53:03,635 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "GET /socket.io/?EIO=4&transport=polling&t=PRT7_vD HTTP/1.1" 200 -
+2025-05-17 12:53:03,683 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "GET /socket.io/?EIO=4&transport=polling&t=PRT7_vV HTTP/1.1" 200 -
+2025-05-17 12:53:03,684 - __main__ - INFO - Client connected
+2025-05-17 12:53:03,687 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "POST /socket.io/?EIO=4&transport=polling&t=PRT7_vX&sid=r6kEpZOgHsu44SzSAAAA HTTP/1.1" 200 -
+2025-05-17 12:53:03,688 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "GET /socket.io/?EIO=4&transport=polling&t=PRT7_va&sid=r6kEpZOgHsu44SzSAAAA HTTP/1.1" 200 -
+2025-05-17 12:53:03,690 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 12:53:03,699 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 12:53:03,707 - __main__ - INFO - Client connected
+2025-05-17 12:53:03,709 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "POST /socket.io/?EIO=4&transport=polling&t=PRT7_wF&sid=9lr3qlKVX0zhO6pEAAAB HTTP/1.1" 200 -
+2025-05-17 12:53:03,712 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "GET /socket.io/?EIO=4&transport=polling&t=PRT7_wH&sid=9lr3qlKVX0zhO6pEAAAB HTTP/1.1" 200 -
+2025-05-17 12:53:03,714 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:03] "GET /socket.io/?EIO=4&transport=polling&t=PRT7_wL&sid=r6kEpZOgHsu44SzSAAAA HTTP/1.1" 200 -
+2025-05-17 12:53:04,242 - __main__ - INFO - Client disconnected
+2025-05-17 12:53:04,242 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:53:04] "GET /socket.io/?EIO=4&transport=websocket&sid=r6kEpZOgHsu44SzSAAAA HTTP/1.1" 200 -
+2025-05-17 12:53:19,888 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:53:19] "GET / HTTP/1.1" 200 -
+2025-05-17 12:53:19,919 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:53:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-17 12:53:19,928 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:53:19] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-17 12:53:20,068 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:53:20] "GET /socket.io/?EIO=4&transport=polling&t=PRT83w0 HTTP/1.1" 200 -
+2025-05-17 12:53:20,079 - __main__ - INFO - Client connected
+2025-05-17 12:53:20,079 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:53:20] "POST /socket.io/?EIO=4&transport=polling&t=PRT83wB&sid=OwLlfwvqsi7I3CF2AAAE HTTP/1.1" 200 -
+2025-05-17 12:53:20,087 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:53:20] "GET /socket.io/?EIO=4&transport=polling&t=PRT83wD&sid=OwLlfwvqsi7I3CF2AAAE HTTP/1.1" 200 -
+2025-05-17 12:53:20,099 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:53:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 12:54:45,262 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dutta\\Desktop\\MoodiFly\\app.py', reloading
+2025-05-17 12:54:45,323 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 12:54:46,397 - werkzeug - WARNING -  * Debugger is active!
+2025-05-17 12:54:46,401 - werkzeug - INFO -  * Debugger PIN: 218-296-101
+2025-05-17 12:54:46,410 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:54:46] "GET /socket.io/?EIO=4&transport=polling&t=PRT8OtL HTTP/1.1" 200 -
+2025-05-17 12:54:46,422 - __main__ - INFO - Client connected
+2025-05-17 12:54:46,423 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:54:46] "POST /socket.io/?EIO=4&transport=polling&t=PRT8O_E&sid=jJCnOjUvpn-BEuUbAAAA HTTP/1.1" 200 -
+2025-05-17 12:54:46,424 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:54:46] "GET /socket.io/?EIO=4&transport=polling&t=PRT8O_F&sid=jJCnOjUvpn-BEuUbAAAA HTTP/1.1" 200 -
+2025-05-17 12:54:46,912 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:54:46] "GET /socket.io/?EIO=4&transport=polling&t=PRT8P6z HTTP/1.1" 200 -
+2025-05-17 12:54:46,920 - __main__ - INFO - Client connected
+2025-05-17 12:54:46,922 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:54:46] "POST /socket.io/?EIO=4&transport=polling&t=PRT8P73&sid=CBh_MqTS-jZLr0HSAAAC HTTP/1.1" 200 -
+2025-05-17 12:54:46,923 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:54:46] "GET /socket.io/?EIO=4&transport=polling&t=PRT8P74&sid=CBh_MqTS-jZLr0HSAAAC HTTP/1.1" 200 -
+2025-05-17 12:55:24,822 - __main__ - INFO - Client disconnected
+2025-05-17 12:55:24,822 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:55:24] "GET /socket.io/?EIO=4&transport=websocket&sid=jJCnOjUvpn-BEuUbAAAA HTTP/1.1" 200 -
+2025-05-17 12:55:24,856 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:55:24] "GET / HTTP/1.1" 200 -
+2025-05-17 12:55:25,001 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:55:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 12:55:25,014 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:55:25] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-17 12:55:25,023 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:55:25] "GET /socket.io/?EIO=4&transport=polling&t=PRT8YQQ HTTP/1.1" 200 -
+2025-05-17 12:55:25,031 - __main__ - INFO - Client connected
+2025-05-17 12:55:25,033 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:55:25] "POST /socket.io/?EIO=4&transport=polling&t=PRT8YQY&sid=E2hQP71F5Pu1G_QiAAAE HTTP/1.1" 200 -
+2025-05-17 12:55:25,034 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:55:25] "GET /socket.io/?EIO=4&transport=polling&t=PRT8YQZ&sid=E2hQP71F5Pu1G_QiAAAE HTTP/1.1" 200 -
+2025-05-17 12:55:25,043 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:55:25] "GET /socket.io/?EIO=4&transport=polling&t=PRT8YQl&sid=E2hQP71F5Pu1G_QiAAAE HTTP/1.1" 200 -
+2025-05-17 12:55:26,653 - __main__ - INFO - Client disconnected
+2025-05-17 12:55:26,654 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:55:26] "GET /socket.io/?EIO=4&transport=websocket&sid=CBh_MqTS-jZLr0HSAAAC HTTP/1.1" 200 -
+2025-05-17 12:55:26,659 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:55:26] "GET / HTTP/1.1" 200 -
+2025-05-17 12:55:26,684 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:55:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 12:55:26,690 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:55:26] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-17 12:55:26,710 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:55:26] "GET /socket.io/?EIO=4&transport=polling&t=PRT8Yqo HTTP/1.1" 200 -
+2025-05-17 12:55:26,719 - __main__ - INFO - Client connected
+2025-05-17 12:55:26,719 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:55:26] "POST /socket.io/?EIO=4&transport=polling&t=PRT8Yqw&sid=TGUzvuP6zgBojPkdAAAG HTTP/1.1" 200 -
+2025-05-17 12:55:26,722 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:55:26] "GET /socket.io/?EIO=4&transport=polling&t=PRT8Yqx&sid=TGUzvuP6zgBojPkdAAAG HTTP/1.1" 200 -
+2025-05-17 12:57:29,064 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dutta\\Desktop\\MoodiFly\\app.py', reloading
+2025-05-17 12:57:29,140 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 12:58:59,489 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-05-17 12:58:59,490 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 12:58:59,490 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 12:59:00,946 - werkzeug - WARNING -  * Debugger is active!
+2025-05-17 12:59:00,950 - werkzeug - INFO -  * Debugger PIN: 218-296-101
+2025-05-17 12:59:09,621 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:59:09] "GET / HTTP/1.1" 200 -
+2025-05-17 12:59:09,808 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:59:09] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-17 12:59:09,821 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:59:09] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-17 12:59:09,830 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:59:09] "GET /socket.io/?EIO=4&transport=polling&t=PRT9PJ2 HTTP/1.1" 200 -
+2025-05-17 12:59:09,862 - __main__ - INFO - Client connected
+2025-05-17 12:59:09,863 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:59:09] "POST /socket.io/?EIO=4&transport=polling&t=PRT9PJV&sid=t7Fj-WssqKx8k-qHAAAA HTTP/1.1" 200 -
+2025-05-17 12:59:09,867 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:59:09] "GET /socket.io/?EIO=4&transport=polling&t=PRT9PJY&sid=t7Fj-WssqKx8k-qHAAAA HTTP/1.1" 200 -
+2025-05-17 12:59:09,885 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:59:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 12:59:21,894 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:59:21] "GET / HTTP/1.1" 200 -
+2025-05-17 12:59:21,924 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:59:21] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-17 12:59:21,930 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:59:21] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-17 12:59:21,977 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:59:21] "GET /socket.io/?EIO=4&transport=polling&t=PRT9SGq HTTP/1.1" 200 -
+2025-05-17 12:59:22,013 - __main__ - INFO - Client connected
+2025-05-17 12:59:22,015 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:59:22] "POST /socket.io/?EIO=4&transport=polling&t=PRT9SHI&sid=9S0FHcs3XuFFboi_AAAC HTTP/1.1" 200 -
+2025-05-17 12:59:22,019 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:59:22] "GET /socket.io/?EIO=4&transport=polling&t=PRT9SHK&sid=9S0FHcs3XuFFboi_AAAC HTTP/1.1" 200 -
+2025-05-17 12:59:22,031 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:59:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 12:59:22,041 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 12:59:22] "GET /socket.io/?EIO=4&transport=polling&t=PRT9SHg&sid=9S0FHcs3XuFFboi_AAAC HTTP/1.1" 200 -
+2025-05-17 12:59:26,580 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 12:59:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 13:00:15,304 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:00:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 13:01:47,655 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dutta\\Desktop\\MoodiFly\\app.py', reloading
+2025-05-17 13:01:47,779 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 13:01:49,387 - werkzeug - WARNING -  * Debugger is active!
+2025-05-17 13:01:49,391 - werkzeug - INFO -  * Debugger PIN: 218-296-101
+2025-05-17 13:01:49,402 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:01:49] "GET /socket.io/?EIO=4&transport=polling&t=PRTA08i HTTP/1.1" 200 -
+2025-05-17 13:01:49,402 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:01:49] "GET /socket.io/?EIO=4&transport=polling&t=PRTA08i HTTP/1.1" 200 -
+2025-05-17 13:01:49,413 - __main__ - INFO - Client connected
+2025-05-17 13:01:49,414 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:01:49] "POST /socket.io/?EIO=4&transport=polling&t=PRTA0GT&sid=zgmCPWSHhditTqMsAAAA HTTP/1.1" 200 -
+2025-05-17 13:01:49,416 - __main__ - INFO - Client connected
+2025-05-17 13:01:49,417 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:01:49] "POST /socket.io/?EIO=4&transport=polling&t=PRTA0GU&sid=shiYjBIiQ65Nh4JDAAAB HTTP/1.1" 200 -
+2025-05-17 13:01:49,417 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:01:49] "GET /socket.io/?EIO=4&transport=polling&t=PRTA0GV&sid=zgmCPWSHhditTqMsAAAA HTTP/1.1" 200 -
+2025-05-17 13:01:49,423 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:01:49] "GET /socket.io/?EIO=4&transport=polling&t=PRTA0GW&sid=shiYjBIiQ65Nh4JDAAAB HTTP/1.1" 200 -
+2025-05-17 13:02:19,013 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-05-17 13:02:19,013 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 13:02:19,014 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 13:02:20,622 - werkzeug - WARNING -  * Debugger is active!
+2025-05-17 13:02:20,629 - werkzeug - INFO -  * Debugger PIN: 218-296-101
+2025-05-17 13:02:21,010 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:02:21] "GET / HTTP/1.1" 200 -
+2025-05-17 13:02:21,295 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:02:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 13:02:21,296 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:02:21] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-17 13:02:21,308 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:02:21] "GET /socket.io/?EIO=4&transport=polling&t=PRTA82u HTTP/1.1" 200 -
+2025-05-17 13:02:21,343 - __main__ - INFO - Client connected
+2025-05-17 13:02:21,344 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:02:21] "POST /socket.io/?EIO=4&transport=polling&t=PRTA83O&sid=xZ2DtVn9JHy7uARQAAAA HTTP/1.1" 200 -
+2025-05-17 13:02:21,347 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:02:21] "GET /socket.io/?EIO=4&transport=polling&t=PRTA83Q&sid=xZ2DtVn9JHy7uARQAAAA HTTP/1.1" 200 -
+2025-05-17 13:02:21,369 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:02:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 13:02:26,263 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:02:26] "GET / HTTP/1.1" 200 -
+2025-05-17 13:02:26,300 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:02:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2025-05-17 13:02:26,304 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:02:26] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+2025-05-17 13:02:26,430 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:02:26] "GET /socket.io/?EIO=4&transport=polling&t=PRTA9IR HTTP/1.1" 200 -
+2025-05-17 13:02:26,434 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:02:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 13:02:26,447 - __main__ - INFO - Client connected
+2025-05-17 13:02:26,450 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:02:26] "POST /socket.io/?EIO=4&transport=polling&t=PRTA9J5&sid=adPzJJbIPg2Szq6yAAAC HTTP/1.1" 200 -
+2025-05-17 13:02:26,452 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:02:26] "GET /socket.io/?EIO=4&transport=polling&t=PRTA9J7&sid=adPzJJbIPg2Szq6yAAAC HTTP/1.1" 200 -
+2025-05-17 13:02:32,263 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:02:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 13:03:48,003 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dutta\\Desktop\\MoodiFly\\app.py', reloading
+2025-05-17 13:03:48,119 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 13:03:49,684 - werkzeug - WARNING -  * Debugger is active!
+2025-05-17 13:03:49,689 - werkzeug - INFO -  * Debugger PIN: 218-296-101
+2025-05-17 13:03:49,698 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:03:49] "GET /socket.io/?EIO=4&transport=polling&t=PRTATRV HTTP/1.1" 200 -
+2025-05-17 13:03:49,707 - __main__ - INFO - Client connected
+2025-05-17 13:03:49,708 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:03:49] "POST /socket.io/?EIO=4&transport=polling&t=PRTATe6&sid=sWkUdo1sctUpJolPAAAA HTTP/1.1" 200 -
+2025-05-17 13:03:49,710 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:03:49] "GET /socket.io/?EIO=4&transport=polling&t=PRTATe7&sid=sWkUdo1sctUpJolPAAAA HTTP/1.1" 200 -
+2025-05-17 13:03:49,913 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:03:49] "GET /socket.io/?EIO=4&transport=polling&t=PRTAThJ HTTP/1.1" 200 -
+2025-05-17 13:03:49,922 - __main__ - INFO - Client connected
+2025-05-17 13:03:49,923 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:03:49] "POST /socket.io/?EIO=4&transport=polling&t=PRTAThS&sid=L-ZeA7sjB8p3VidaAAAC HTTP/1.1" 200 -
+2025-05-17 13:03:49,927 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:03:49] "GET /socket.io/?EIO=4&transport=polling&t=PRTAThT&sid=L-ZeA7sjB8p3VidaAAAC HTTP/1.1" 200 -
+2025-05-17 13:03:50,708 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dutta\\Desktop\\MoodiFly\\app.py', reloading
+2025-05-17 13:03:50,816 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 13:08:05,660 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-17 13:09:03,256 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-17 13:09:05,924 - __main__ - INFO - Sentiment analyzer initialized successfully
+2025-05-17 13:09:05,947 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-05-17 13:09:05,947 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 13:09:05,948 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 13:09:15,135 - __main__ - INFO - Sentiment analyzer initialized successfully
+2025-05-17 13:09:15,145 - werkzeug - WARNING -  * Debugger is active!
+2025-05-17 13:09:15,149 - werkzeug - INFO -  * Debugger PIN: 218-296-101
+2025-05-17 13:09:57,155 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-05-17 13:15:02,620 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.2:5000
+2025-05-17 13:15:02,620 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 13:15:02,621 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 13:15:04,148 - werkzeug - WARNING -  * Debugger is active!
+2025-05-17 13:15:04,152 - werkzeug - INFO -  * Debugger PIN: 218-296-101
+2025-05-17 13:15:33,855 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:15:33] "GET / HTTP/1.1" 200 -
+2025-05-17 13:15:34,077 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:15:34] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-17 13:15:34,084 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:15:34] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-17 13:15:34,197 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:15:34] "GET /socket.io/?EIO=4&transport=polling&t=PRTD9dm HTTP/1.1" 200 -
+2025-05-17 13:15:34,230 - __main__ - INFO - Client connected
+2025-05-17 13:15:34,231 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:15:34] "POST /socket.io/?EIO=4&transport=polling&t=PRTD9eA&sid=f6xRC20vVc2aL1LXAAAA HTTP/1.1" 200 -
+2025-05-17 13:15:34,234 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:15:34] "GET /socket.io/?EIO=4&transport=polling&t=PRTD9eB&sid=f6xRC20vVc2aL1LXAAAA HTTP/1.1" 200 -
+2025-05-17 13:16:27,509 - werkzeug - INFO -  * Detected change in 'C:\\Users\\dutta\\Desktop\\MoodiFly\\app.py', reloading
+2025-05-17 13:16:27,611 - werkzeug - INFO -  * Restarting with stat
+2025-05-17 13:16:29,142 - werkzeug - WARNING -  * Debugger is active!
+2025-05-17 13:16:29,146 - werkzeug - INFO -  * Debugger PIN: 218-296-101
+2025-05-17 13:16:29,909 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:16:29] "GET /socket.io/?EIO=4&transport=polling&t=PRTDNEF HTTP/1.1" 200 -
+2025-05-17 13:16:29,921 - __main__ - INFO - Client connected
+2025-05-17 13:16:29,923 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:16:29] "POST /socket.io/?EIO=4&transport=polling&t=PRTDNEP&sid=o_6AiuyRGAbRQ0hCAAAA HTTP/1.1" 200 -
+2025-05-17 13:16:29,924 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:16:29] "GET /socket.io/?EIO=4&transport=polling&t=PRTDNEP.0&sid=o_6AiuyRGAbRQ0hCAAAA HTTP/1.1" 200 -
+2025-05-17 13:16:33,737 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:16:33] "GET / HTTP/1.1" 200 -
+2025-05-17 13:16:33,888 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:16:33] "GET /static/css/style.css HTTP/1.1" 200 -
+2025-05-17 13:16:33,892 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:16:33] "GET /static/js/script.js HTTP/1.1" 200 -
+2025-05-17 13:16:33,930 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:16:33] "GET /socket.io/?EIO=4&transport=polling&t=PRTDOD5 HTTP/1.1" 200 -
+2025-05-17 13:16:33,944 - __main__ - INFO - Client connected
+2025-05-17 13:16:33,945 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:16:33] "POST /socket.io/?EIO=4&transport=polling&t=PRTDODJ&sid=mf1Q_L_7riB11zWcAAAC HTTP/1.1" 200 -
+2025-05-17 13:16:33,949 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:16:33] "GET /socket.io/?EIO=4&transport=polling&t=PRTDODL&sid=mf1Q_L_7riB11zWcAAAC HTTP/1.1" 200 -
+2025-05-17 13:16:33,987 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:16:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 13:16:38,396 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:16:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 13:16:46,683 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:16:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 13:17:02,128 - __main__ - INFO - Client disconnected
+2025-05-17 13:17:02,129 - werkzeug - INFO - 192.168.1.2 - - [17/May/2025 13:17:02] "GET /socket.io/?EIO=4&transport=websocket&sid=mf1Q_L_7riB11zWcAAAC HTTP/1.1" 200 -
+2025-05-17 13:17:03,248 - __main__ - INFO - Client disconnected
+2025-05-17 13:17:03,248 - werkzeug - INFO - 127.0.0.1 - - [17/May/2025 13:17:03] "GET /socket.io/?EIO=4&transport=websocket&sid=o_6AiuyRGAbRQ0hCAAAA HTTP/1.1" 200 -
